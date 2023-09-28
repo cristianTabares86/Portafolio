@@ -1,0 +1,42 @@
+/* Barra navegacion */
+
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    
+}
+
+/* Seccion Hero */
+
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+/* Adaptable responsive */
+
+@media screen and  (max-width: 750px) {
+    .navbar-brand {
+        display: none;
+    }
+}
